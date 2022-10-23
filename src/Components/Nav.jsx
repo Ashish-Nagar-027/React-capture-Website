@@ -7,7 +7,7 @@ const Nav = () => {
             <h1><Link to="#" id='logo'>Capture</Link></h1>
             <ul>
                 <li>
-                    <Link to="/">1. About Us</Link>
+                    <Link to="/React-capture-Website">1. About Us</Link>
                 </li> 
                 <li>
                     <Link to="work">2. Our Work</Link>
