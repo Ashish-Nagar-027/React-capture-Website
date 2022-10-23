@@ -26,7 +26,7 @@ function App() {
       <Nav />
       <AnimatePresence wait>
       <Routes location={ location } key={location.pathname} >
-          <Route path='/' element={  <AboutUs /> } />
+          <Route path='/React-capture-Website' element={  <AboutUs /> } />
           <Route path='work' element={ <OurWork /> } />
           <Route path='work/:id' element={ <MovieDetail /> } />
           <Route path='contact' element={ <ContactUs  /> } />
